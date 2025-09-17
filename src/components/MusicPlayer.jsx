@@ -1,17 +1,12 @@
-import CoverArt from "./CoverArt";
-import SongTitle from "./SongTitle";
-import PlayControls from "./PlayControls";
-import VolumeControls from "./VolumeControls";
-import PlayListItem from "./PlayListItem";
+import CurrentlyPlaying from "./CurrentlyPlaying";
+import Playlist from "./Playlist";
 
 export default function MusicPlayer() {
   return (
-    <>
-      <CoverArt/>
-      <SongTitle/>
-      <PlayControls/>
-      <VolumeControls/>
-      <PlayListItem/>
-    </>
+    <div className="flex flex-col md:flex-row h-screen">
+      <CurrentlyPlaying/>
+      <div className="w-full h-1 md:w-1 md:h-auto bg-slate-50 "></div>
+      <Playlist/>
+    </div>
   );
 }

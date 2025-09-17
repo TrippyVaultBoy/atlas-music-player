@@ -5,8 +5,6 @@ function CoverArt() {
         <img
             src={placeholder}
             alt="album art placeholder"
-            width="400"
-            height="400"
         />
     )
 }
