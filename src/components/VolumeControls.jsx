@@ -6,7 +6,7 @@ function VolumeControls() {
             <Volume2 className="mr-2"/>
             <input
                 type="range"
-                className="w-96 h-4 accent-slate-500"
+                className="w-96 h-4 accent-red"
                 min="0"
                 max="100"
             />

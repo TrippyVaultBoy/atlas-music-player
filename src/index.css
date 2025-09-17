@@ -2,4 +2,10 @@
 
 @theme {
     --font-inter: "Inter", sans-serif;
+
+    --color-blue: #00003c;
+    --color-offwhite: #fefcf2;
+    --color-beige: #f7f0dc;
+    --color-teal: #1dd2af;
+    --color-red: #d00415;
 }

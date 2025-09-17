@@ -5,7 +5,7 @@ import VolumeControls from "./VolumeControls";
 
 function CurrentlyPlaying() {
     return (
-        <div className="flex flex-col  flex-1 gap-4 p-3 mb-2">
+        <div className="flex flex-col flex-1 gap-4 p-7 sm:border-b-2 md:border-r-2 md:border-b-0 border-offwhite">
             <CoverArt/>
             <SongTitle/>
             <PlayControls/>

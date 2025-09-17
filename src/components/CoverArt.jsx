@@ -1,9 +1,10 @@
 import placeholder from "../assets/placeholder.svg"
+import Breach from "../assets/Breach.webp"
 
 function CoverArt() {
     return (
         <img
-            src={placeholder}
+            src={Breach}
             alt="album art placeholder"
         />
     )
