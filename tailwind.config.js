@@ -1,5 +1,6 @@
 export default {
-  theme: {
+    darkMode: "media",
+    theme: {
     extend: {
       colors: {
         blue: "var(--color-blue)",
